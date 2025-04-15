@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: gray;
+}
+
+.results {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: left;
+}
+.no-results {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  color: #555;
+}
